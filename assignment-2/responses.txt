@@ -1,1 +1,5 @@
-Content for responses page.
+A directory is a filing system that structures references to other files or directories. This could be like a filing cabinet containing a lot of folders. On a computer it can be a folder on your computer with other files contained within it.
+
+A version control system (VCS) is important because it lets you see the changes that you have made within a directory. It will allow you to look at a later version of your work in case you ever need to reference it or go back to the previous version. If someone is working on a project in a group, then VCS also lets all members see what changes the others have some so they can look though any problems that may arise with a project. 
+
+My favorite artistic medium digital. I love using my drawing tablet and a drawing software to draw and create art. It allows me to make the adjustments that I want to my image that really make it so that it comes out as imagined. Like a VCS I can save different versions of my work so I don’t have to recreate the art work each time that I mess with it, but I can also use a different version if I didn’t like what I added or changed. I also like using the digital medium for animation as I feel like it can make my work easier and more consistent.
