@@ -1,0 +1,9 @@
+1. What is the relationship between an IP address and the DNS?
+ IP addresses are found by your computer when looking up websites using DNS, where the DNS allows your computer to connect
+   to another through its IP address.
+
+2. What is a cookie?
+A cookie is a bit of data a website sends to your computer to allow the website to remember who you are.
+
+3. List the three basic parts of a URL.
+The three basic parts of a URL are; the protocol (http://), the domain (.com), and the path (/directory/).
