@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Taryn's website!
+        </title>
+    </head>
+<body>
+    <div>
+        <h1>Lily</h1>
+        <p>This is my dog Lily! She is really cute and has boundless energy!</p>
+        <p>Fetch is her favorete game, but we are also teaching her agility!</p>
+ 
+ <!-- I added am image button just for fun -->
+        <img id="image" src="" />
+    </div>
+ 
+    <button type="button"
+        onclick="show()" id="btnID">
+        Show Image of Lily
+    </button>
+ 
+    <script>
+        function show() {
+            let image = document.getElementById("image");
+            image.src ="images/Lily.jpg"
+            document.getElementById("btnID")
+                    .style.display = "none";
+        }
+    </script>
+<!-- End of extra content-->
+</body>
+ 
+</html>
