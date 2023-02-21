@@ -4,4 +4,4 @@
 In the 2004 version of the site, the header was white, just like the rest of the page, the logo was in the 2/6th sextant of the page, there was no search bar, but the account and cart where still to the right, just not in the same order. I thought it was really strange not having the Logo in the or left justified because it seemed out of place in the old version. The Navigation bar was also vastly different. Today the Navigation bar is a long gray bar with various links, but in 2004 it was a cream color and looked like tabs from a filing folder. 
 The product advertisements where also vastly different. It currently uses different content boxes side by side to display information, however in 2004 everything was left-aligned. The product name would be over the image, and the information of that product would be to the images right and span all the way across the webpage. It gives the feeling of an unfinished webpage and really has shown me just how far Web design has come.
 
-2. [Screenshot](/images/assignment-05-screenshot.jpg)
+2. [Screenshot](./images/assignment-05-screenshot.jpg)
