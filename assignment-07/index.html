@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Taryn Crawford">
+
+    <meta name="description" content="A page for forms on this website">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <body style="background-color:rgb(166, 234, 250);"></body>
+    <h1>Lily's Grooming</h1>
+    <img src="./images/Dog.jpeg" width="693" height="462" alt="Picture of A cute dog getting a bath"/>
+    <style>
+        table, th, td {
+          border: 3px solid black;
+          padding: 10px;
+        }
+    </style>
+
+    <table>
+       <tr>
+          <th></th>
+          <th scope="col">Monday</th>
+          <th scope="col">Tuesday</th>
+          <th scope="col">Wednesday</th>
+          <th scope="col">Thursday</th>
+          <th scope="col">Friday</th>
+          <th scope="col">Saturday</th>
+          <th scope="col">Sunday</th>
+       </tr>
+       <tr>
+          <th scope="row">Open Hours</th>
+          <td>8AM-5PM</td>
+          <td>8AM-5PM</td>
+          <td>8AM-5PM</td>
+          <td>8AM-5PM</td>
+          <td>8AM-5PM</td>
+          <td>9AM-12PM</td>
+          <td>CLOSED</td>
+       </tr>
+    </table>
+
+    <br />
+
+    <form action="http://www.example.com/login.php" method="post" id="sign-in" class="basic-forms">
+        <p>
+          Username:
+          <input type="text" name="username" id="username_input" autofocus />
+        </p>
+        <p>
+          Password:
+          <input type="password" name="password" id="test-password" />
+        </p>
+        <p>
+          Comments
+          <textarea name="comments" id="test-textarea">Enter up to 300 characters...</textarea>
+        </p>
+        <button>
+          <img src="./images/submit-button.png"
+          alt="submitbutton" width="150" height="50" />
+        </button>
+    </form>
+
+    <br />
+
+    <address>
+      Lily's Grooming<br />
+      1234 Fluffy Street <br />
+      Great Falls, MT 59405<br />
+      (406) 123-4567
+    </address>
+
+    <a href="mailto:tc175219@umconnect.umt.edu">Email</a>
+  </body>
+</html>
