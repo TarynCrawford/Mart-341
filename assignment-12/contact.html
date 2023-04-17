@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./css/fonts.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Taryn Crawford">
+
+    <meta name="description" content="A contact page to contact author of the website.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+
+    <header class="">
+       <div class="menu-item">
+          <a href="./index.html">Home</a></div>
+       <div class="menu-item">
+          <a href="./gaming.html">Gaming</a></div>
+       <div class="menu-item dropdown">
+          <a href="./contact.html">Other</a>
+          <div class="dropdown-content">
+             <div class="dropdown-item">
+                <a href="./contact.html">Contact</a></div>
+             <div class="dropdown-item">
+                <a href="./about.html">About</a></div>
+          </div>
+       </div>
+    </header>
+
+    <h1 style="color:white">
+      Contact
+    </h1>
+
+    <br />
+
+    <div style = "background-color: #172241;" id="table" class="container">
+      <h2 style="float:none">When I will respond to you:</h2>
+      <table style="background-color:#172241" class="center">
+         <tr style="color:white">
+            <th></th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+         </tr>
+         <tr style="color:white">
+            <th scope="row">Response Hours</th>
+            <td>5PM-8PM</td>
+            <td>5PM-8PM</td>
+            <td>5PM-8PM</td>
+            <td>5PM-8PM</td>
+            <td>5PM-8PM</td>
+            <td>8AM-5PM</td>
+            <td>8AM-5PM</td>
+         </tr>
+      </table>
+    </div>
+
+    <br />
+
+    <div id="form" class="container">
+      <form action="http://www.example.com/login.php" method="post" id="sign-in" class="basic-forms">
+          <p>
+            Username:
+            <input type="text" name="username" id="username_input" autofocus />
+          </p>
+          <p>
+            Password:
+            <input type="password" name="password" id="test-password" />
+          </p>
+          <p>
+            Comments
+            <textarea name="comments" id="test-textarea">Enter up to 300 characters...</textarea>
+          </p>
+          <button>
+            Submit Form
+          </button>
+      </form>
+    </div>
+  </body>
+</html>

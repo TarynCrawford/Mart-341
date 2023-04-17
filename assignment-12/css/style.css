@@ -1,0 +1,191 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #172241;
+}
+
+h1{
+  color: #172241;
+  font-family: PressStart2P;
+  font-size: 100px;
+  letter-spacing: 0.3em;
+}
+
+.container {
+  background-color: white;
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5pt;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  transition: 0.8s;
+}
+
+header {
+  background-color: black;
+  font-size: 10pt;
+  text-transform: uppercase;
+  margin: 0;
+  height: 2.15em;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 0 0;
+  min-width: 8em;
+  text-align: center;
+    background-color: #26272b;
+  padding: 0.5em 0;
+}
+
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-item:hover {
+  background-color: grey;
+}
+
+.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  margin: 0;
+  margin-top: 0.5em;
+  color: #000;
+  background-color: #fff;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #000;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em;
+  min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+  color: #baf0ef;
+  background-color: #a2a2a2;
+}
+
+ul:hover li {
+  transform: rotateY(360deg);
+}
+
+#title:hover {
+  color: #db1f33;
+  transform: rotateY(360deg);
+}
+
+#subtitle:hover {
+  font-size: 60px;
+  color: #1962d1;
+  font-weight: bold;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 500px;
+  float:right;
+}
+
+img {
+  border: 5px solid #ecedf1;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: ShadowsIntoLight;
+  font-weight: 400;
+  margin: 10px 0;
+  color: #ecedf1;
+  float: right;
+}
+
+h3 {
+ font-size: 50px;
+  font-family: AmaticSC,Arial,sans-serif;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #ecedf1;
+  float: right;
+}
+
+p {
+  font-size: 30px;
+  font-family: AmaticSC;
+  color: #ecedf1;
+  float: right;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  text-align: center;
+  color: white;
+  background-image: url(../images/Retro.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.topbar {
+  border-top: 10px solid #659b2b
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+
+/*
+#8cce77 Main Green
+#ecedf1 controller
+#418fa2 blue
+#659b2b Dk Green
+#172241 black
+
+buttons
+#1962d1 blue
+#199e69 green
+#f7ca3a Yellow
+#db1f33 Red
+*/
