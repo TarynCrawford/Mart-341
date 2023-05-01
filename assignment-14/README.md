@@ -1,0 +1,4 @@
+# Assignment 14
+## Taryn Crawford
+My user testing was very beneficial. I had both my husband and my sister go to my website even though it was incomplete. Both of them noticed that when the page was smaller and when it was on a phone, the navigation section was not aligning correctly. This shows me that I might have to go back to a more traditonal way of creating a navigation rather than using buttons. I also need to continue to flesh out the website and the css to make it more coheasive. Currently there is nothing in the product page so I really need to flesh it out. 
+I faced quite a few challanges this week. I struggled to get the blocks to line up nicely at the bottom of the page as well as give them a nice spacing to make them look night atheticly in the website. I also struggled incoprating the fancy button within the nav section properly. 
